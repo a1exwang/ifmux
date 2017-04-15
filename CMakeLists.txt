@@ -1,0 +1,4 @@
+CMAKE_MINIMUM_REQUIRED (VERSION 2.8)
+PROJECT (ifmux)
+ADD_COMPILE_OPTIONS(-Wall)
+ADD_EXECUTABLE(ifmux ifmux.c tun.c icmp.h icmp.c)
